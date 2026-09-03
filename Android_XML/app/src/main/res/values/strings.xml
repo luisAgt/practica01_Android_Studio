@@ -44,16 +44,16 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
 
-    <string name = "student_luis">
+    <string name="student_luis">
         \tPersonal Information\n
         Lastname:   Agustin\n
         Surname:    Fuentes\n
-        name:       Luis Angel\n\n\t
+        Name:       Luis Angel\n\n\t
 
-        School information\n
-        boleta:     2024630134\n
-        Group:      7CV4\n
-        Carrer:     ISC\n
-        School:     ESCOM
+        School Information\n
+        Boleta:     2024630134\n
+        Grupo:      7CV4\n
+        School:     ESCOM\n
+        Carrer:     ISC 2020
     </string>
 </resources>
