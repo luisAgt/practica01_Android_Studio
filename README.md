@@ -71,7 +71,18 @@ c. Run the app by clicking **Run** in the top bar.
 
 #### 3.3. Running Android Flutter Version
 a. Open Command Prompt or CMD, then navigate to the project directory:
+
 ```bash 
 cd Android_FLUTTER
+```
+b. Retrieve project dependencies:
+
+```bash
+flutter pub get
+```
+c. run the app targeting the active Android Emulator.
+
+```bash
+flutter run -d emulator-5554
 ```
 ![Previous view](images/Android_FLUTTER.png)
