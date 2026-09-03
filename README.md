@@ -72,5 +72,6 @@ c. Run the app by clicking **Run** in the top bar.
 #### 3.3. Running Android Flutter Version
 a. Open Command Prompt or CMD, then navigate to the project directory:
 ```bash 
-cd Android_FLUTTER```
+cd Android_FLUTTER
+```
 ![Previous view](images/Android_FLUTTER.png)
