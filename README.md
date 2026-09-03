@@ -3,10 +3,10 @@
 
 # Practice 1: Desarrollo de Aplicación "Hola Mundo" en Tres Enfoques Móviles
 
-**Escuela:** Escuela Superior de Cómputo (ESCOM)  
-**Unidad de Aprendizaje:** Desarrollo de Aplicaciones Moviles Nativas  
-**Grupo:** 7CV4  
-**Alumno:** Luis Angel Agustin Fuentes  
+**School:** Escuela Superior de Cómputo (ESCOM)  
+**Subject:** Desarrollo de Aplicaciones Moviles Nativas  
+**Group:** 7CV4  
+**Student:** Luis Angel Agustin Fuentes  
 **Boleta:** 2024630134  
 
 ---
@@ -54,23 +54,26 @@ The main of this practice is to evaluate the paradigmatic differentes. UI compon
     ```bash
     emulator -avd <Your_AVD_name>
 3. Run the project:
-    3.1. Running Android XML Version:
-        a. Open Android Studio and select the Android_XML folder.
-        b. Sync the project with Gradle files.
-        c. Select the emulated device in the top bar and click ##Run##
+3.1. Running Android XML Version:
+    a. Open Android Studio and select the Android_XML folder.
+    b. Sync the project with Gradle files.
+    c. Select the emulated device in the top bar and click ##Run##
 
-    3.2. Running Android Compose Version:
-        a. Open Android Studio and select the Android_COMPOSE folder.
-        b. ensure build.gradle is configured with the matching Kotlin/Compose compiler version.
-        c. Run the app by clickcing ##Run##, in top bar and click.
+![Previous view](images/Android_XML.png)
+3.2. Running Android Compose Version:
+    a. Open Android Studio and select the Android_COMPOSE folder.
+    b. ensure build.gradle is configured with the matching Kotlin/Compose compiler version.
+    c. Run the app by clickcing ##Run##, in top bar and click.
+![Previous view](images/Android_COMPOSE.png)
 
-    3.3. Running Android Flutter Version:
-        a. Open a Comand Promt or CMD, then navigate to the project directory:
-            ```bash
-            cd Android_FLUTTER
-        b. eRetrieve project dependencies:
-            ```bash
-            flutter pub get
-        c. run the app targeting the active Android Emulator.
-            ```bash
-            flutter run -d emulator-5554
+3.3. Running Android Flutter Version:
+    a. Open a Comand Promt or CMD, then navigate to the project directory:
+        ```bash
+        cd Android_FLUTTER
+    b. eRetrieve project dependencies:
+        ```bash
+        flutter pub get
+    c. run the app targeting the active Android Emulator.
+        ```bash
+        flutter run -d emulator-5554
+![Previous view](images/Android_FLUTTER.png)
